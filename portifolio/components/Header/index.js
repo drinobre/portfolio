@@ -1,9 +1,9 @@
 export default function PagesHeader({ title, image, alt, text }) {
   return (
     <>
-      <header class="container-header">
-        <div class="wave">
-          <img href={image} alt={alt}></img>
+      <header className="container-header">
+        <div className="wave">
+          <Image href={image} alt={alt}></Image>
           <h1>{title}</h1>
           <p>{text}</p>
         </div>

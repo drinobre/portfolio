@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-export default function BackgroundImage(src, layout) {
+export default function BackgroundImage(src, alt, layout) {
   return (
-    <header ClassName="header">
-      <Image src={src} layout={layout}></Image>
+    <header className="header">
+      <Image src={src} alt={alt} layout={layout}></Image>
     </header>
   );
 }

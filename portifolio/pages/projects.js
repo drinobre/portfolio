@@ -7,7 +7,11 @@ export default function Projects() {
     <>
       <Navbar></Navbar>
       <div NameClass="background">
-        <Image src="/homepage_img.png" layout="fill"></Image>
+        <Image
+          src="/homepage_img.png"
+          alt="personal-intro"
+          layout="fill"
+        ></Image>
       </div>
       <main></main>
     </>
