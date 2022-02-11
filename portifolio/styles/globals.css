@@ -1,0 +1,80 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* CSS Created */
+
+/* Navbar */
+.container-navbar {
+  display: flex;
+  flex-direction: row;
+  background-color: #f2f2f2;
+  align-items: center;
+  padding: 10px;
+}
+
+.navbar-right {
+  justify-content: flex-start;
+  background-color: #f2f2f2;
+  align-items: center;
+  font-size: 25px;
+  padding: 0 20px 0 0;
+}
+
+/* Header */
+/* Source: https://wweb.dev/resources/css-separator-generator/    */
+.container-header {
+  position: relative;
+  background: rgb(244, 245, 247);
+  height: 50vh;
+}
+
+.wave {
+  position: absolute;
+  height: 78px;
+  width: 100%;
+  background: rgb(244, 245, 247);
+  bottom: 0;
+}
+
+.wave::before,
+.wave::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+}
+
+.wave::before {
+  width: 55%;
+  height: 109%;
+  background-color: #fff;
+  right: -1.5%;
+  top: 60%;
+}
+.wave::after {
+  width: 55%;
+  height: 100%;
+  background-color: rgb(244, 245, 247);
+  left: -1.5%;
+  top: 40%;
+}
+
+/* Footer */
+
+.background {
+  background-color: blue;
+}
