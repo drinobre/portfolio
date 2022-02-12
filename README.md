@@ -31,3 +31,10 @@ I've choosen to build this APP using Next.JS rather than React.JS. for SEO reaso
   -- Title + Image + text
 
 ## Implementation Plan
+
+- Install (Next.js)[https://nextjs.org/learn/basics/create-nextjs-app/setup] npx create-next-app portifolio
+
+## Learnings
+
+- globals.css vs Home.module.module.css:
+  - should I create the CSS by page? Or can I add on the global?
