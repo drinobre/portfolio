@@ -11,7 +11,7 @@ export function Navbar() {
       </div>
       <div className="navbar-right">
         {" "}
-        <Link href="/projects">
+        <Link href="/about">
           <a>About me</a>
         </Link>
       </div>
