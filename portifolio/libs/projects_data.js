@@ -5,7 +5,7 @@ const projectList = [
     image: "",
     description: "First HTML project created before start the bootcamper.",
     fullDescription:
-      "This project was creating after doing the Pre-course for the School of Code bootcamp. I have no prior knowledge on using HTML and CSS apart from using pre-made. I decided to create a page in memory of my brother as he is definetly a big inspiration during my school of code experience",
+      "This project was created during the SoC bootcamp pre-course. As I have no prior knowledge on using HTML and CSS apart from selecting pre-made elements at Wordpress. I decided to create a page in memory of my brother as he is definetly a big inspiration during my school of code experience",
     technology: "HTML CSS" && " HTML CSS",
     type: "indidual project",
     creationDate: "oct/2021",
