@@ -1,10 +1,10 @@
 export default function DisplayProjects({
   title,
-  description,
+  // description,
   fullDescription,
   technology,
   type,
-  creationDate,
+  // creationDate,
   gitHubLink,
   link,
 }) {
