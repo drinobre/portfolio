@@ -1,11 +1,15 @@
 html,
 body {
   padding: 0;
-  margin: 0 1.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  margin: 0 1rem;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif,
+    montserrat; */
+  font-family: "Montserrat", sans-serif;
   /* background-color: coral; */
   background-color: rgb(244, 245, 247);
+  font-weight: 300;
+  font-size: 1.125rem;
 }
 
 a {
@@ -169,7 +173,8 @@ a {
 } */
 
 .project-group {
-  background-color: red;
+  background-color: rgb(244, 245, 247);
+  /* background-color: red; */
   display: flex;
   flex-direction: row;
   margin-right: auto;
@@ -188,24 +193,27 @@ a {
 
 .project-group-text {
   flex: 70%;
-  background-color: rgb(0, 255, 0);
+  background-color: rgb(244, 245, 247);
+  /* background-color: rgb(0, 255, 0); */
   flex-wrap: wrap;
+  margin: 1rem 3rem;
 }
 
 .container-project {
   /* background: blue; */
   padding: 0 20px 20px 20px;
   /* box-shadow: 10px 14px 14px 0px rgb(23 43 77 / 20%); */
-  border-color: black;
-  border-style: solid;
+  /* border-color: black; */
+  /* border-style: solid; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .project-results {
-  padding: 15px;
-  background-color: lightcyan;
+  padding: 10px;
+  /* background-color: lightcyan; */
 }
 
-h2 {
+h2:hover {
   text-decoration: 4px underline blue;
 }
 
@@ -229,7 +237,18 @@ h1 {
 }
 
 .testimonial {
-  margin: 3.5rem;
+  margin: 3rem 5rem 0rem 5rem;
   font-style: italic;
   text-align: center;
+  font-size: 0.75rem;
+  color: rgb(0, 82, 204);
+  background: white;
+}
+/* 
+h4 {
+  color-adjust: rgb(0, 82, 204) !important;
+} */
+
+p {
+  line-height: 2;
 }

@@ -24,14 +24,6 @@ export default function HeroHomePage() {
                 since the 1500s, when an unknown printer took a galley of type
                 and scrambled it to make a type specimen bookLorem Ipsum is
                 simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industrys standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book. Lorem Ipsum is
-                simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industrys standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book Lorem Ipsum is
-                simply dummy text of the printing and typesetting industry.
               </p>
             </div>
           </div>
@@ -75,12 +67,13 @@ export default function HeroHomePage() {
                   have to reinvent yourself and learn to learn as the pace of
                   the course and the rapdly changing in technology you must lern
                   to read documentation, use npm packages to speed up
-                  implementation. I have also learn the importance of detailed
-                  planning, as it's save so much time during the implementation
-                  and the most important part of how to be a better team player.
-                  I have learnt to work with people from different backgrounds,
-                  ways of working and you know what there is no better way of
-                  learning than practising with other team members.
+                  implementation.
+                  <p>
+                    I have learnt to be a better team player as we were working
+                    with people from different backgrounds, ways of working and
+                    you know what there is no better way of learning than
+                    practising with other team members.
+                  </p>
                 </p>
               </div>
               <div className="project-group">
@@ -97,13 +90,6 @@ export default function HeroHomePage() {
                     Office. International coverage, having worked in three
                     different countries and cultures within Australasia, South
                     America and Europe.
-                    <p>
-                      A leader of teams, designing innovative and digital
-                      transformative solutions, optimising business processes,
-                      and implementing a wide range of software - ERP,
-                      customised portal, CRM - providing valuable insights to
-                      stakeholders and decision-makers.
-                    </p>
                   </p>
                 </div>
                 <div className="project-group-image">
@@ -139,14 +125,13 @@ export default function HeroHomePage() {
               <div>
                 <p>
                   During the projects, I tried to apply the different concepts
-                  we have learnt at School of Code. Therefore, the projects are
-                  build in Node.js, React.js, Next.js. The main language used is
-                  JavaScript but when using any kind of interaction with
-                  database I've used SQL. I've also used markup languages, such
-                  as HTML, CSS. It's incredible to see how much I have learnt
-                  from creating a single page to build a React and Next
-                  applications in only 16 is my best achievement. I hope you
-                  enjoy on seeing what I've produced individually and as a team.
+                  we have learnt at School of Code and the projects are mainly
+                  build using Node.js, React.js and Next.js. The main language
+                  used is JavaScript but when using any kind of interaction with
+                  database I've used SQL. It's incredible to see how much I have
+                  learnt from creating a single page to build a React and Next
+                  applications in only 16 weeks. I hope you enjoy seeing what
+                  I've produced individually and as a team.
                 </p>
               </div>
               <div>
