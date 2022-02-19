@@ -36,12 +36,12 @@ export default function HeroHomePage() {
             </div>
           </div>
           <div>
-            <p>
+            {/* <p>
               Lorem Ipsum has been the industrys standard dummy text ever since
               the 1500s, when an unknown printer took a galley of type and
               scrambled it to make a type specimen book. Lorem Ipsum is simply
               dummy text of the printing and typesetting industry.
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
@@ -52,7 +52,7 @@ export default function HeroHomePage() {
           </div>
           <div className="project-group">
             <div className="project-group-text">
-              <p>
+              {/* <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industrys standard dummy text
                 ever since the 1500s, when an unknown printer took a galley of
@@ -65,7 +65,51 @@ export default function HeroHomePage() {
                 Lorem Ipsum has been the industrys standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type
                 and scrambled it to make a type specimen book
-              </p>
+              </p> */}
+
+              <div className="project-group-text">
+                {/* <h3>Starting a new carrer...</h3> */}
+                <p>
+                  During 16 weeks I become a bootcamper at School of Code to
+                  become a Full Stack developer. The journey wasn't easy as you
+                  have to reinvent yourself and learn to learn as the pace of
+                  the course and the rapdly changing in technology you must lern
+                  to read documentation, use npm packages to speed up
+                  implementation. I have also learn the importance of detailed
+                  planning, as it's save so much time during the implementation
+                  and the most important part of how to be a better team player.
+                  I have learnt to work with people from different backgrounds,
+                  ways of working and you know what there is no better way of
+                  learning than practising with other team members.
+                </p>
+              </div>
+              <div className="project-group">
+                <div className="project-group-text">
+                  <h4>Who I was before the bootcamper...</h4>
+                  <p>
+                    A skilled and dedicated Business Analyst and Digital
+                    Analytics Manager with over 10 year's experience, across a
+                    range of organisations from private companies to a
+                    non-profit organisation and the public sector. Delivers
+                    compelling and well-received outcomes to a range of high
+                    profile leading companies including BT, Sky, TalkTalk,
+                    Virgin Media, Facebook, Samsung and the UK Government Home
+                    Office. International coverage, having worked in three
+                    different countries and cultures within Australasia, South
+                    America and Europe.
+                    <p>
+                      A leader of teams, designing innovative and digital
+                      transformative solutions, optimising business processes,
+                      and implementing a wide range of software - ERP,
+                      customised portal, CRM - providing valuable insights to
+                      stakeholders and decision-makers.
+                    </p>
+                  </p>
+                </div>
+                <div className="project-group-image">
+                  <img src="" alt="Adriana Nobre Lawrence Avatar"></img>
+                </div>
+              </div>
               <div className="testimonial">
                 <p>
                   Working with Adriana, you instantly see her dedication to her
@@ -81,20 +125,6 @@ export default function HeroHomePage() {
                   <p>Ghislaine Bombusa, Head of Digital at Internet Matters</p>
                 </p>
               </div>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industrys standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book Lorem Ipsum
-                is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industrys standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen bookLorem Ipsum is
-                simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industrys standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book
-              </p>
             </div>
           </div>
         </div>
@@ -108,19 +138,15 @@ export default function HeroHomePage() {
             <div className="project-group-text">
               <div>
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industrys
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book Lorem Ipsum is simply dummy text of the printing
-                  and typesetting industry. Lorem Ipsum has been the industrys
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen bookLorem Ipsum is simply dummy text of the printing
-                  and typesetting industry. Lorem Ipsum has been the industrys
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book
+                  During the projects, I tried to apply the different concepts
+                  we have learnt at School of Code. Therefore, the projects are
+                  build in Node.js, React.js, Next.js. The main language used is
+                  JavaScript but when using any kind of interaction with
+                  database I've used SQL. I've also used markup languages, such
+                  as HTML, CSS. It's incredible to see how much I have learnt
+                  from creating a single page to build a React and Next
+                  applications in only 16 is my best achievement. I hope you
+                  enjoy on seeing what I've produced individually and as a team.
                 </p>
               </div>
               <div>
