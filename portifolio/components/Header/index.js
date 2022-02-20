@@ -3,7 +3,7 @@ export default function PagesHeader({ title, image, alt, text }) {
     <>
       <div className="container-header">
         <div className="header-item">
-          <h1>{title}</h1>
+          <h1 className="mainTitle">{title}</h1>
           <p>{text}</p>
         </div>
       </div>

@@ -2,11 +2,11 @@ export default function HeroHomePage() {
   return (
     <>
       <section className="section-group">
-        <div className="project-results1">
+        <div className="project-results2">
           <div className="container-project">
             <h1>About me</h1>
           </div>
-          <div className="project-group1">
+          <div className="project-group">
             <div className="project-group-image">
               <img
                 src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
@@ -38,28 +38,13 @@ export default function HeroHomePage() {
           </div>
         </div>
       </section>
-      <section className="section-group">
-        <div className="project-results2">
+      <section className="section-group1">
+        <div className="project-results1">
           <div className="container-project">
             <h1>Professional journey</h1>
           </div>
-          <div className="project-group">
+          <div className="project-group1">
             <div className="project-group-text">
-              {/* <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industrys standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book Lorem Ipsum
-                is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industrys standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen bookLorem Ipsum is
-                simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industrys standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book
-              </p> */}
-
               <div className="project-group-text">
                 {/* <h3>Starting a new carrer...</h3> */}
                 <p>
@@ -98,14 +83,18 @@ export default function HeroHomePage() {
                     src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
                     alt="Adriana Nobre Lawrence Avatar"
                   ></img>
-                  <p>Read more at Linkedin</p>
+                  <p>
+                    <a href="https://www.linkedin.com/in/adriana-nobre-lawrence/">
+                      Read more at Linkedin
+                    </a>
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section>
+      {/* <section>
         <div className="testimonial">
           <p>
             Working with Adriana, you instantly see her dedication to her craft
@@ -120,20 +109,18 @@ export default function HeroHomePage() {
             <p>Ghislaine Bombusa, Head of Digital at Internet Matters</p>
           </p>
         </div>
-      </section>
-
+      </section> */}
       <section className="section-group">
-        <div className="project-results">
+        <div className="project-results2">
           <div className="container-project">
             <h1>Projects</h1>
           </div>
           <div className="project-group">
-            <div className="project-group-image-3">
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industrys standard dummy text
-                ever since the 1500s, when an
-              </p>
+            <div className="project-group-image">
+              <img
+                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
+                alt="Adriana Nobre Lawrence Avatar"
+              ></img>
             </div>
 
             <div className="project-group-text-3">
@@ -150,12 +137,53 @@ export default function HeroHomePage() {
                 </p>
               </div>
               <div>
-                <a href="/projects">Read more about my new projects</a>
+                {/* <a href="/projects">Read more about my new projects</a> */}
+                <button>Find out more</button>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      {/* <section className="section-group">
+        <div className="project-results2">
+          <div className="container-project">
+            <h1>Tools</h1>
+          </div>
+          <div className="project-group-tools">
+            <div className="project-group-image-tools">
+              <img
+                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
+                alt="Adriana Nobre Lawrence Avatar"
+              ></img>
+            </div>
+            <div className="project-group-image">
+              <img
+                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
+                alt="Adriana Nobre Lawrence Avatar"
+              ></img>
+            </div>
+            <div className="project-group-image">
+              <img
+                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
+                alt="Adriana Nobre Lawrence Avatar"
+              ></img>
+            </div>
+            <div className="project-group-image">
+              <img
+                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
+                alt="Adriana Nobre Lawrence Avatar"
+              ></img>
+            </div>
+            <div className="project-group-image">
+              <img
+                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
+                alt="Adriana Nobre Lawrence Avatar"
+              ></img>
+            </div>
+          </div>
+        </div>
+      </section> */}
     </>
   );
 }
