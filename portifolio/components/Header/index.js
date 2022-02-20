@@ -1,10 +1,11 @@
-export default function PagesHeader({ title, image, alt, text }) {
+export default function PagesHeader({ title, subheader, image, alt, text }) {
   return (
     <>
       <div className="container-header">
         <div className="header-item">
           <h1 className="mainTitle">{title}</h1>
-          <p>{text}</p>
+          <h3>{subheader}</h3>
+          <p className="main-paragraph">{text}</p>
         </div>
       </div>
     </>

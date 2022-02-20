@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import { Navbar } from "../components/Navbar";
 import PagesHeader from "../components/Header";
 import HeroHomePage from "../components/Hero";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -13,23 +14,16 @@ export default function Home() {
         <meta name="description" content="Adriana Nobre Lawrence portifolio" />
       </Head>
       <PagesHeader
-        title={"Welcome to my Portifolio! I'm Adriana"}
+        title={"Hello, I'm Adriana Nobre Lawrence!"}
+        subheader={"Mum, Entrepreneur, Full Stack Developer."}
         text={
-          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+          "Staring a new carrer in Tech can be very challenging and I've taken the hardest step of leaving a promissing carrer as a Business Analyts | Project Manager to become a Full Stack Developer. The rest of the story will depend on who is willing to help me grow? I hope you enjoy learning more about me and see a bit more about what I have done so far ..."
         }
       ></PagesHeader>
 
       <HeroHomePage></HeroHomePage>
 
-      <footer className={styles.footer}>
-        <a
-          href="https://www.linkedin.com/in/adriana-nobre-lawrence/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Designed and created by{" Adriana Nobre Lawrence"}
-        </a>
-      </footer>
+      <Footer></Footer>
     </div>
   );
 }

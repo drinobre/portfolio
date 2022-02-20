@@ -12,24 +12,26 @@ export default function HeroHomePage() {
                 src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
                 alt="Adriana Nobre Lawrence Avatar"
               ></img>
-              <h4>Brazilian, with italian background who lives in UK</h4>
+              <p>Brazilian, with italian background who lives in UK</p>
             </div>
             <div className="project-group-text">
               <p>
                 In my free time, I love spend time with{" "}
                 <b>family and friends</b>. A perfect Sunday for me is having a
-                big family lunch in a very noise house... as brazilian we use to
-                have big families ... and my friends also end up on my
-                grandmother's house.
+                big family lunch in a very noisy house (as brazilian's usually
+                have big families) and my friends end up joing us at my
+                grandmother's house too.
               </p>
               <p>
-                Other big part of me is the <b>love for travelling</b>. My
-                passion started with my family, where we use to travel every
-                year to somewhere different and lot's of planning involving. As
-                other I got, I start to enjoying travel without lot's of
-                planning. The longest trips I have done so far were California
-                (3 months), Australia (3 years), Italy (3 months) and UK (4
-                years...).
+                Another side of me, is my <b>love for travelling</b>. My passion
+                came from my family, where we used to travel every year to
+                somewhere different. So far, I lived in California, Australia,
+                Italy and UK.
+              </p>
+              <p>
+                I believe we can make a different in each others lives and small
+                actions can bring real benefits to the society. We can all do
+                our part.
               </p>
             </div>
           </div>
