@@ -23,22 +23,36 @@ a {
 
 /* CSS Created */
 
+a {
+  color: rgb(0, 82, 204);
+  font-size: 1.3rem;
+}
+
+#navbar-name {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: 0.5rem underline white;
+}
+
+#navbar-name:hover {
+  color: lightgray;
+  text-decoration: 0.5rem underline gray;
+}
+
 /* Navbar */
 .container-navbar {
   display: flex;
   flex-direction: row;
-  /* background-color: #f2f2f2; */
-  flex-direction: flex-end;
-  padding: 10px;
-  color: white;
-  /* background: rgb(0, 82, 204); */
+  justify-content: end;
+  padding: 1rem;
+  background: rgb(0, 82, 204);
+  /* background-color: hsl(219, 100%, 4%); */
+  /* background-color: lightgray; */
 }
 
 .navbar-right {
-  flex-direction: flex-end;
-  /* background-color: #f2f2f2; */
   align-items: center;
-  font-size: 25px;
+  font-size: 1rem;
   padding: 0 20px 0 0;
   color: white;
 }
@@ -110,14 +124,14 @@ h1 {
   flex: 1;
   padding: 2rem 0;
   border-top: 1px solid #eaeaea;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
 .footer a {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-end;
   flex-grow: 1;
 }
 
@@ -359,10 +373,10 @@ h1:hover {
   background: rgb(0, 82, 204);
   box-shadow: 10px 14px 14px 0px rgb(23 43 77 / 20%);
 }
-/* 
+
 h4 {
-  color-adjust: rgb(0, 82, 204) !important;
-} */
+  color-adjust: gray !important;
+}
 
 p {
   line-height: 2;
@@ -371,11 +385,6 @@ p {
 
 .section-group1 {
   padding: 2rem 4rem 1rem 4rem;
-}
-
-a {
-  color: rgb(0, 82, 204);
-  font-size: 1.3rem;
 }
 
 /* .read-more {
@@ -393,4 +402,20 @@ img {
   background-color: lightgray;
   max-width: 80%;
   border-radius: 50%;
+}
+
+h3 {
+  align-items: center;
+}
+
+.main-paragraph {
+  padding: 2rem 2rem 0 2rem;
+}
+
+.subheader-gray {
+  color: gray;
+}
+
+.logo-display {
+  size: 1rem;
 }

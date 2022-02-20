@@ -6,7 +6,7 @@ export function Navbar() {
       <div className="navbar-right">
         {" "}
         <Link href="/">
-          <a>Home</a>
+          <a id="navbar-name">Home</a>
         </Link>
       </div>
       {/* <div className="navbar-right">
@@ -18,7 +18,7 @@ export function Navbar() {
       <div className="navbar-right">
         {" "}
         <Link href="/projects">
-          <a>Projects</a>
+          <a id="navbar-name">Projects</a>
         </Link>
       </div>
       {/* <div className="navbar-right">
