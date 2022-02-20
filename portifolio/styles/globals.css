@@ -23,22 +23,30 @@ a {
 
 /* CSS Created */
 
+a {
+  color: rgb(0, 82, 204);
+  font-size: 1.3rem;
+}
+
+#navbar-name {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: 0.5rem underline white;
+}
+
 /* Navbar */
 .container-navbar {
   display: flex;
   flex-direction: row;
-  /* background-color: #f2f2f2; */
-  flex-direction: flex-end;
-  padding: 10px;
-  color: white;
-  /* background: rgb(0, 82, 204); */
+  justify-content: end;
+  padding: 1rem;
+  color: white !important;
+  background: rgb(0, 82, 204);
 }
 
 .navbar-right {
-  flex-direction: flex-end;
-  /* background-color: #f2f2f2; */
   align-items: center;
-  font-size: 25px;
+  font-size: 1rem;
   padding: 0 20px 0 0;
   color: white;
 }
@@ -371,11 +379,6 @@ p {
 
 .section-group1 {
   padding: 2rem 4rem 1rem 4rem;
-}
-
-a {
-  color: rgb(0, 82, 204);
-  font-size: 1.3rem;
 }
 
 /* .read-more {
