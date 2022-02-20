@@ -16,15 +16,20 @@ export default function HeroHomePage() {
             </div>
             <div className="project-group-text">
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industrys standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of
-                type and scrambled it to make a type specimen book Lorem Ipsum
-                is simply dummy text of the printing and typesetting industry.
-                Lorem Ipsum has been the industrys standard dummy text ever
-                since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen bookLorem Ipsum is
-                simply dummy text of the printing and typesetting industry.
+                In my free time, I love spend time with{" "}
+                <b>family and friends</b>. A perfect Sunday for me is having a
+                big family lunch in a very noise house... as brazilian we use to
+                have big families ... and my friends also end up on my
+                grandmother's house.
+              </p>
+              <p>
+                Other big part of me is the <b>love for travelling</b>. My
+                passion started with my family, where we use to travel every
+                year to somewhere different and lot's of planning involving. As
+                other I got, I start to enjoying travel without lot's of
+                planning. The longest trips I have done so far were California
+                (3 months), Australia (3 years), Italy (3 months) and UK (4
+                years...).
               </p>
             </div>
           </div>
@@ -77,17 +82,16 @@ export default function HeroHomePage() {
                     different countries and cultures within Australasia, South
                     America and Europe.
                   </p>
+                  <a href="https://www.linkedin.com/in/adriana-nobre-lawrence/">
+                    Read more at Linkedin
+                  </a>
                 </div>
                 <div className="project-group-image2">
                   <img
-                    src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
+                    src="images/data-analysis.png"
                     alt="Adriana Nobre Lawrence Avatar"
+                    className="opacity"
                   ></img>
-                  <p>
-                    <a href="https://www.linkedin.com/in/adriana-nobre-lawrence/">
-                      Read more at Linkedin
-                    </a>
-                  </p>
                 </div>
               </div>
             </div>
@@ -117,10 +121,7 @@ export default function HeroHomePage() {
           </div>
           <div className="project-group">
             <div className="project-group-image">
-              <img
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
-                alt="Adriana Nobre Lawrence Avatar"
-              ></img>
+              <img className="image-size" src="images/projects.png"></img>
             </div>
 
             <div className="project-group-text-3">
@@ -137,8 +138,10 @@ export default function HeroHomePage() {
                 </p>
               </div>
               <div>
-                {/* <a href="/projects">Read more about my new projects</a> */}
-                <button>Find out more</button>
+                <a className="read-more" href="/projects">
+                  See the latest
+                </a>
+                {/* <button>Find out more</button> */}
               </div>
             </div>
           </div>
