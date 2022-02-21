@@ -6,27 +6,27 @@ export function Navbar() {
       <div className="navbar-right">
         {" "}
         <Link href="/">
-          <a>Home</a>
+          <a id="navbar-name">Home</a>
         </Link>
       </div>
-      <div className="navbar-right">
+      {/* <div className="navbar-right">
         {" "}
         <Link href="/about">
           <a>About me</a>
         </Link>
-      </div>
+      </div> */}
       <div className="navbar-right">
         {" "}
         <Link href="/projects">
-          <a>Projects</a>
+          <a id="navbar-name">Projects</a>
         </Link>
       </div>
-      <div className="navbar-right">
+      {/* <div className="navbar-right">
         {" "}
         <Link href="/contact">
           <a>Contact me</a>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }

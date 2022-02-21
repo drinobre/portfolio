@@ -1,12 +1,20 @@
 import { Navbar } from "../components/Navbar";
 import projectList from "../libs/projects_data.js";
 import DisplayProjects from "../components/DisplayCard";
+import PagesHeader from "../components/Header";
 
 export default function Projects() {
   return (
     <>
       <Navbar></Navbar>
-      <main>
+      <PagesHeader
+        title={"Projects"}
+        text={
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+        }
+      ></PagesHeader>
+
+      <div>
         {projectList.map(function ({
           id,
           title,
@@ -32,7 +40,7 @@ export default function Projects() {
             </div>
           );
         })}
-      </main>
+      </div>
     </>
   );
 }
