@@ -11,9 +11,14 @@ export default function HeroHomePage() {
           </div>
           <div className="project-group">
             <div className="project-group-image">
-              <Image
+              {/* <Image
                 src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
                 alt="Adriana Nobre Lawrence Avatar"
+              /> */}
+              <Image
+                src="/images/data-analysis.png"
+                alt="Adriana Nobre Lawrence Avatar"
+                layout="fill"
               />
               <p>Brazilian, with italian background who lives in UK</p>
             </div>
@@ -93,8 +98,9 @@ export default function HeroHomePage() {
                 </div>
                 <div className="project-group-image2">
                   <Image
-                    src="images/data-analysis.png"
+                    src="/images/data-analysis.png"
                     alt="Adriana Nobre Lawrence Avatar"
+                    layout="fill"
                     className="opacity"
                   />
                 </div>
@@ -128,7 +134,8 @@ export default function HeroHomePage() {
             <div className="project-group-image">
               <Image
                 className="image-size"
-                src="images/projects.png"
+                src="/images/projects.png"
+                layout="fill"
                 alt="project"
               />
             </div>

@@ -8,9 +8,14 @@ export default function CardWithImage() {
       </div>
       <div className="project-group1">
         <div className="project-group-image">
-          <Image
+          {/* <Image
             src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
             alt="Adriana Nobre Lawrence Avatar"
+          /> */}
+          <Image
+            src="/images/data-analysis.png"
+            alt="Adriana Nobre Lawrence Avatar"
+            layout="fill"
           />
           <h4>Brazilian, with italian background who lives in UK</h4>
         </div>
