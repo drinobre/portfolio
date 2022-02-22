@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function CardWithImage() {
   <section className="section-group">
     <div className="project-results1">
@@ -6,10 +8,10 @@ export default function CardWithImage() {
       </div>
       <div className="project-group1">
         <div className="project-group-image">
-          <img
+          <Image
             src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
             alt="Adriana Nobre Lawrence Avatar"
-          ></img>
+          />
           <h4>Brazilian, with italian background who lives in UK</h4>
         </div>
         <div className="project-group-text">

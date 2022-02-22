@@ -25,18 +25,16 @@ export default function Projects() {
           link,
         }) {
           return (
-            <div>
-              <div>
-                <DisplayProjects
-                  key={id}
-                  title={title}
-                  type={type}
-                  fullDescription={fullDescription}
-                  technology={technology}
-                  githubLink={gitHubLink}
-                  link={link}
-                ></DisplayProjects>
-              </div>
+            <div key={id}>
+              <DisplayProjects
+                // key={id}
+                title={title}
+                type={type}
+                fullDescription={fullDescription}
+                technology={technology}
+                githubLink={gitHubLink}
+                link={link}
+              ></DisplayProjects>
             </div>
           );
         })}

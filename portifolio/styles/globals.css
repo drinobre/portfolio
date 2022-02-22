@@ -30,13 +30,14 @@ a {
 
 #navbar-name {
   color: white;
+  /* color: rgb(0, 82, 204); */
   font-size: 1.3rem;
-  text-decoration: 0.5rem underline white;
+  /* text-decoration: 0.5rem underline white; */
 }
 
 #navbar-name:hover {
-  color: lightgray;
-  text-decoration: 0.5rem underline gray;
+  color: coral;
+  /* text-decoration: 0.5rem underline gray; */
 }
 
 /* Navbar */
@@ -45,9 +46,12 @@ a {
   flex-direction: row;
   justify-content: end;
   padding: 1rem;
-  background: rgb(0, 82, 204);
+  /* background: rgb(0, 82, 204); */
+
   /* background-color: hsl(219, 100%, 4%); */
   /* background-color: lightgray; */
+  /* background-color: rgb(239, 241, 242); */
+  background-color: rgb(86, 11, 173);
 }
 
 .navbar-right {
@@ -106,7 +110,8 @@ a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background: rgb(0, 82, 204);
+  /* background: rgb(0, 82, 204); */
+  background-color: rgb(72, 12, 168);
 }
 
 .header-item {
@@ -344,6 +349,11 @@ h1 {
 
 h1:hover {
   text-decoration: 3px underline rgb(0, 82, 204);
+  color: coral;
+}
+
+#mainTitle:hover {
+  color: coral;
 }
 
 #mainTitle {
