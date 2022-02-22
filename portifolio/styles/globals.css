@@ -98,23 +98,21 @@ a {
 
 .container-header {
   /* background: blue; */
-  padding: 0 0px 40px 0px;
+  padding: 2rem 0 3rem 0;
   /* box-shadow: 10px 14px 14px 0px rgb(23 43 77 / 20%); */
   /* border-color: black;
   border-style: solid; */
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   background: rgb(0, 82, 204);
 }
 
 .header-item {
-  padding: 1rem 5rem 3rem 5rem;
+  /* padding: 1rem 5rem 3rem 5rem; */
   text-align: center;
   color: white;
-}
-
-h1 {
-  /* text-align: center; */
-  /* padding: 0.5rem 0rem 2rem 0rem; */
 }
 
 /* Footer */
@@ -348,10 +346,17 @@ h1:hover {
   text-decoration: 3px underline rgb(0, 82, 204);
 }
 
-.mainTitle {
+#mainTitle {
   text-align: center;
   padding-top: 3rem;
   color: white;
+  font-size: 3rem;
+}
+
+.mainSubheader {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
 }
 
 .container-personal {
@@ -409,7 +414,7 @@ h3 {
 }
 
 .main-paragraph {
-  padding: 2rem 2rem 0 2rem;
+  padding: 2rem 8rem 0 8rem;
 }
 
 .subheader-gray {
