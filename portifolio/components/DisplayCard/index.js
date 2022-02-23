@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function DisplayProjects({
   title,
   // description,
@@ -14,10 +16,13 @@ export default function DisplayProjects({
         <div className="container-project"></div>
         <div className="project-group1">
           <div className="project-group-image">
-            <img
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
+            <Image
+              src="/images/personal_avatar.png"
               alt="Adriana Nobre Lawrence Avatar"
-            ></img>
+              width="8"
+              height="8"
+              layout="responsive"
+            />
             <h4 className="subheader-gray">{type}</h4>
           </div>
           <div className="project-group-text">

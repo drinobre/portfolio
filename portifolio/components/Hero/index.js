@@ -1,3 +1,6 @@
+import Image from "next/image";
+import Link from "next/link";
+
 export default function HeroHomePage() {
   return (
     <>
@@ -8,19 +11,22 @@ export default function HeroHomePage() {
           </div>
           <div className="project-group">
             <div className="project-group-image">
-              <img
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
+              <Image
+                src="/images/personal_avatar.png"
                 alt="Adriana Nobre Lawrence Avatar"
-              ></img>
+                width="8"
+                height="8"
+                layout="responsive"
+              />
               <p>Brazilian, with italian background who lives in UK</p>
             </div>
             <div className="project-group-text">
               <p>
                 In my free time, I love spend time with{" "}
                 <b>family and friends</b>. A perfect Sunday for me is having a
-                big family lunch in a very noisy house (as brazilian's usually
+                big family lunch in a very noisy house (as brazilian`s usually
                 have big families) and my friends end up joing us at my
-                grandmother's house too.
+                grandmother`s house too.
               </p>
               <p>
                 Another side of me, is my <b>love for travelling</b>. My passion
@@ -35,14 +41,7 @@ export default function HeroHomePage() {
               </p>
             </div>
           </div>
-          <div>
-            {/* <p>
-              Lorem Ipsum has been the industrys standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. Lorem Ipsum is simply
-              dummy text of the printing and typesetting industry.
-            </p> */}
-          </div>
+          <div></div>
         </div>
       </section>
       <section className="section-group1">
@@ -53,10 +52,9 @@ export default function HeroHomePage() {
           <div className="project-group1">
             <div className="project-group-text">
               <div className="project-group-text">
-                {/* <h3>Starting a new carrer...</h3> */}
                 <p>
                   During 16 weeks I become a bootcamper at School of Code to
-                  become a Full Stack developer. The journey wasn't easy as you
+                  become a Full Stack developer. The journey wasn`t easy as you
                   have to reinvent yourself and learn to learn as the pace of
                   the course and the rapdly changing in technology you must lern
                   to read documentation, use npm packages to speed up
@@ -74,7 +72,7 @@ export default function HeroHomePage() {
                   <h4>Who I was before the bootcamper...</h4>
                   <p>
                     A skilled and dedicated Business Analyst and Digital
-                    Analytics Manager with over 10 year's experience, across a
+                    Analytics Manager with over 10 year`s experience, across a
                     range of organisations from private companies to a
                     non-profit organisation and the public sector. Delivers
                     compelling and well-received outcomes to a range of high
@@ -89,11 +87,14 @@ export default function HeroHomePage() {
                   </a>
                 </div>
                 <div className="project-group-image2">
-                  <img
-                    src="images/data-analysis.png"
+                  <Image
+                    src="/images/data-analysis.png"
                     alt="Adriana Nobre Lawrence Avatar"
+                    width="8"
+                    height="8"
+                    layout="responsive"
                     className="opacity"
-                  ></img>
+                  />
                 </div>
               </div>
             </div>
@@ -106,7 +107,7 @@ export default function HeroHomePage() {
             Working with Adriana, you instantly see her dedication to her craft
             and her love for detail and purpose. She is proactive and great
             under pressure. She always seeks to answer the questions before
-            you've even ask them, in doing so anticipating potential issues. On
+            you`ve even ask them, in doing so anticipating potential issues. On
             many projects that I have worked with her on, she has been a vital
             part of the team, contributing above and beyond her core objectives.
             She is a powerful asset to any successful business and I would
@@ -123,7 +124,14 @@ export default function HeroHomePage() {
           </div>
           <div className="project-group">
             <div className="project-group-image">
-              <img className="image-size" src="images/projects.png"></img>
+              <Image
+                className="image-size"
+                src="/images/projects.png"
+                width="8"
+                height="8"
+                layout="responsive"
+                alt="project"
+              />
             </div>
 
             <div className="project-group-text-3">
@@ -133,62 +141,21 @@ export default function HeroHomePage() {
                   we have learnt at School of Code and the projects are mainly
                   build using Node.js, React.js and Next.js. The main language
                   used is JavaScript but when using any kind of interaction with
-                  database I've used SQL. It's incredible to see how much I have
+                  database I`ve used SQL. It`s incredible to see how much I have
                   learnt from creating a single page to build a React and Next
                   applications in only 16 weeks. I hope you enjoy seeing what
-                  I've produced individually and as a team.
+                  I`ve produced individually and as a team.
                 </p>
               </div>
               <div>
-                <a className="read-more" href="/projects">
-                  See the latest
-                </a>
-                {/* <button>Find out more</button> */}
+                <Link href="/projects">
+                  <a className="read-more">See the latest</a>
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
-
-      {/* <section className="section-group">
-        <div className="project-results2">
-          <div className="container-project">
-            <h1>Tools</h1>
-          </div>
-          <div className="project-group-tools">
-            <div className="project-group-image-tools">
-              <img
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
-                alt="Adriana Nobre Lawrence Avatar"
-              ></img>
-            </div>
-            <div className="project-group-image">
-              <img
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
-                alt="Adriana Nobre Lawrence Avatar"
-              ></img>
-            </div>
-            <div className="project-group-image">
-              <img
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
-                alt="Adriana Nobre Lawrence Avatar"
-              ></img>
-            </div>
-            <div className="project-group-image">
-              <img
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
-                alt="Adriana Nobre Lawrence Avatar"
-              ></img>
-            </div>
-            <div className="project-group-image">
-              <img
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
-                alt="Adriana Nobre Lawrence Avatar"
-              ></img>
-            </div>
-          </div>
-        </div>
-      </section> */}
     </>
   );
 }

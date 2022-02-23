@@ -30,13 +30,14 @@ a {
 
 #navbar-name {
   color: white;
+  /* color: rgb(0, 82, 204); */
   font-size: 1.3rem;
-  text-decoration: 0.5rem underline white;
+  /* text-decoration: 0.5rem underline white; */
 }
 
 #navbar-name:hover {
-  color: lightgray;
-  text-decoration: 0.5rem underline gray;
+  color: coral;
+  /* text-decoration: 0.5rem underline gray; */
 }
 
 /* Navbar */
@@ -45,9 +46,12 @@ a {
   flex-direction: row;
   justify-content: end;
   padding: 1rem;
-  background: rgb(0, 82, 204);
+  /* background: rgb(0, 82, 204); */
+
   /* background-color: hsl(219, 100%, 4%); */
   /* background-color: lightgray; */
+  /* background-color: rgb(239, 241, 242); */
+  background-color: rgb(86, 11, 173);
 }
 
 .navbar-right {
@@ -98,23 +102,22 @@ a {
 
 .container-header {
   /* background: blue; */
-  padding: 0 0px 40px 0px;
+  padding: 2rem 0 3rem 0;
   /* box-shadow: 10px 14px 14px 0px rgb(23 43 77 / 20%); */
   /* border-color: black;
   border-style: solid; */
   display: flex;
-  background: rgb(0, 82, 204);
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background: rgb(0, 82, 204); */
+  background-color: rgb(72, 12, 168);
 }
 
 .header-item {
-  padding: 1rem 5rem 3rem 5rem;
+  /* padding: 1rem 5rem 3rem 5rem; */
   text-align: center;
   color: white;
-}
-
-h1 {
-  /* text-align: center; */
-  /* padding: 0.5rem 0rem 2rem 0rem; */
 }
 
 /* Footer */
@@ -228,7 +231,7 @@ h1 {
   flex: 30%;
   padding: 1rem;
   text-align: center;
-  /* display: block; */
+  display: block;
   width: 100%;
 
   /* background-color: #ffffff; */
@@ -302,7 +305,7 @@ project-group-image-3 {
 }
 
 .project-results2 {
-  padding: 0 1rem 1rem 1rem;
+  padding: 0 5rem 1rem 5rem;
   margin-top: 50;
   /* background-color: lightcyan; */
   background: rgb(207, 214, 217);
@@ -346,12 +349,24 @@ h1 {
 
 h1:hover {
   text-decoration: 3px underline rgb(0, 82, 204);
+  color: coral;
 }
 
-.mainTitle {
+#mainTitle:hover {
+  color: coral;
+}
+
+#mainTitle {
   text-align: center;
   padding-top: 3rem;
   color: white;
+  font-size: 3rem;
+}
+
+.mainSubheader {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
 }
 
 .container-personal {
@@ -381,6 +396,12 @@ h4 {
 p {
   line-height: 2;
   text-align: justify;
+  /* user agent stylesheet */
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
 }
 
 .section-group1 {
@@ -409,7 +430,7 @@ h3 {
 }
 
 .main-paragraph {
-  padding: 2rem 2rem 0 2rem;
+  padding: 2rem 8rem 0 8rem;
 }
 
 .subheader-gray {

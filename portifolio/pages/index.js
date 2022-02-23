@@ -14,10 +14,10 @@ export default function Home() {
         <meta name="description" content="Adriana Nobre Lawrence portifolio" />
       </Head>
       <PagesHeader
-        title={"Hello, I'm Adriana Nobre Lawrence!"}
-        subheader={"Mum, Entrepreneur, Full Stack Developer."}
+        title={"Hello, I'm Adriana Nobre Lawrence"}
+        subheader={"< Mum, Entrepreneur, Full Stack Developer >"}
         text={
-          "Staring a new carrer in Tech can be very challenging and I've taken the hardest step of leaving a promissing carrer as a Business Analyts | Project Manager to become a Full Stack Developer. The rest of the story will depend on who is willing to help me grow? I hope you enjoy learning more about me and see a bit more about what I have done so far ..."
+          "Starting a new career in Tech can be very challenging and I've taken the hardest step of leaving a promising career as a Business Analyst | Project Manager to become a Full Stack Developer. The rest of the story will depend on who is willing to help me grow? I hope you enjoy learning more about me and see a bit more about what I have done so far ..."
         }
       ></PagesHeader>
 
