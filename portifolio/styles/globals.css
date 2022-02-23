@@ -231,7 +231,7 @@ a {
   flex: 30%;
   padding: 1rem;
   text-align: center;
-  /* display: block; */
+  display: block;
   width: 100%;
 
   /* background-color: #ffffff; */

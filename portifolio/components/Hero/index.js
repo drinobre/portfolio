@@ -11,14 +11,12 @@ export default function HeroHomePage() {
           </div>
           <div className="project-group">
             <div className="project-group-image">
-              {/* <Image
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
-                alt="Adriana Nobre Lawrence Avatar"
-              /> */}
               <Image
-                src="/images/data-analysis.png"
+                src="/images/personal_avatar.png"
                 alt="Adriana Nobre Lawrence Avatar"
-                layout="fill"
+                width="8"
+                height="8"
+                layout="responsive"
               />
               <p>Brazilian, with italian background who lives in UK</p>
             </div>
@@ -43,14 +41,7 @@ export default function HeroHomePage() {
               </p>
             </div>
           </div>
-          <div>
-            {/* <p>
-              Lorem Ipsum has been the industrys standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. Lorem Ipsum is simply
-              dummy text of the printing and typesetting industry.
-            </p> */}
-          </div>
+          <div></div>
         </div>
       </section>
       <section className="section-group1">
@@ -61,7 +52,6 @@ export default function HeroHomePage() {
           <div className="project-group1">
             <div className="project-group-text">
               <div className="project-group-text">
-                {/* <h3>Starting a new carrer...</h3> */}
                 <p>
                   During 16 weeks I become a bootcamper at School of Code to
                   become a Full Stack developer. The journey wasn`t easy as you
@@ -100,7 +90,9 @@ export default function HeroHomePage() {
                   <Image
                     src="/images/data-analysis.png"
                     alt="Adriana Nobre Lawrence Avatar"
-                    layout="fill"
+                    width="8"
+                    height="8"
+                    layout="responsive"
                     className="opacity"
                   />
                 </div>
@@ -135,7 +127,9 @@ export default function HeroHomePage() {
               <Image
                 className="image-size"
                 src="/images/projects.png"
-                layout="fill"
+                width="8"
+                height="8"
+                layout="responsive"
                 alt="project"
               />
             </div>
@@ -163,46 +157,6 @@ export default function HeroHomePage() {
           </div>
         </div>
       </section>
-
-      {/* <section className="section-group">
-        <div className="project-results2">
-          <div className="container-project">
-            <h1>Tools</h1>
-          </div>
-          <div className="project-group-tools">
-            <div className="project-group-image-tools">
-              <Image
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
-                alt="Adriana Nobre Lawrence Avatar"
-              ></Image>
-            </div>
-            <div className="project-group-image">
-              <Image
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
-                alt="Adriana Nobre Lawrence Avatar"
-              ></Image>
-            </div>
-            <div className="project-group-image">
-              <Image
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
-                alt="Adriana Nobre Lawrence Avatar"
-              ></Image>
-            </div>
-            <div className="project-group-image">
-              <img
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
-                alt="Adriana Nobre Lawrence Avatar"
-              ></img>
-            </div>
-            <div className="project-group-image">
-              <img
-                src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
-                alt="Adriana Nobre Lawrence Avatar"
-              ></img>
-            </div>
-          </div>
-        </div>
-      </section> */}
     </>
   );
 }

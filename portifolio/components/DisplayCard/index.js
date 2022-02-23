@@ -17,8 +17,11 @@ export default function DisplayProjects({
         <div className="project-group1">
           <div className="project-group-image">
             <Image
-              src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Prescription02&hairColor=Black&facialHairType=Blank&clotheType=ShirtCrewNeck&clotheColor=Blue03&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
+              src="/images/personal_avatar.png"
               alt="Adriana Nobre Lawrence Avatar"
+              width="8"
+              height="8"
+              layout="responsive"
             />
             <h4 className="subheader-gray">{type}</h4>
           </div>
