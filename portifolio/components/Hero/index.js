@@ -151,7 +151,6 @@ export default function HeroHomePage() {
                 <Link href="/projects">
                   <a className="read-more">See the latest</a>
                 </Link>
-                {/* <button>Find out more</button> */}
               </div>
             </div>
           </div>
