@@ -2,11 +2,11 @@ import Image from "next/image";
 
 export default function DisplayProjects({
   title,
-  // description,
+  src,
+  alt,
   fullDescription,
   technology,
   type,
-  // creationDate,
   gitHubLink,
   link,
 }) {
@@ -19,19 +19,22 @@ export default function DisplayProjects({
             <Image
               src="/images/personal_avatar.png"
               alt="Adriana Nobre Lawrence Avatar"
-              width="8"
-              height="8"
+              width="10"
+              height="10"
               layout="responsive"
             />
             <h4 className="subheader-gray">{type}</h4>
           </div>
           <div className="project-group-text">
-            <h2>{title}</h2>
-            <h3 className="subheader-gray">{technology}</h3>
-            <p>{fullDescription}</p>
-            {/* <h4>Challenges:</h4> */}
-            {/* <p>Access the full project: {gitHubLink}</p> */}
-            <a href={link}>See project</a>
+            <div>
+              <h2>{title}</h2>
+              <h3 className="subheader-gray">{technology}</h3>
+            </div>
+            <p className="title">{fullDescription}</p>
+            <br></br>
+            <div>
+              <a href={link}>See project</a>
+            </div>
           </div>
         </div>
       </div>
