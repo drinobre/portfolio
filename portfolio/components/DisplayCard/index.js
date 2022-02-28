@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function DisplayProjects({
   title,
-  src,
+  imageSrc,
   alt,
   fullDescription,
   technology,
@@ -17,7 +17,7 @@ export default function DisplayProjects({
         <div className="project-group1">
           <div className="project-group-image">
             <Image
-              src="/images/personal_avatar.png"
+              src={imageSrc}
               alt="Adriana Nobre Lawrence Avatar"
               width="10"
               height="10"
