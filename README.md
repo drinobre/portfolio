@@ -40,3 +40,4 @@ I've choosen to build this APP using Next.JS rather than React.JS in order to pr
 - globals.css vs Home.module.module.css;
 - Use of Image component - types of layouts, size of the images in unit;
 - Deployment on Vercel;
+- Image name when saved into public are case-sensitive (as when I have .PNG is not the same as .png) 
