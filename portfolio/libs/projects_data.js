@@ -1,8 +1,8 @@
 const projectList = [
   {
     id: 1,
-    title: "Bootcamper APP - 1 week Project",
-    imageSrc: "/thumbnails/tribute_page.png",
+    title: "Bootcamper APP",
+    imageSrc: "/thumbnails/bootcamper_app.png",
     description: "",
     fullDescription:
       "We were assigned to teams of four in week nine of the SoC bootcamp and our task was to solve a problem that bootcampers have. On the first day, we planned the project as a team and we decided to build an app for bootcampers to get to know more about each other. In the following days, we were divided into pairs and I was responsible for leading the backend and helping solve issues on the front-end. During the week, we learnt how to effectively work as a team, how to use git branches, deploy on Netlify and Heroku and how resilient we were as a team.",
@@ -16,7 +16,7 @@ const projectList = [
   {
     id: 2,
     title: "Cocktail API",
-    imageSrc: "/thumbnails/tribute_page.png",
+    imageSrc: "/thumbnails/cocktail_api.png",
     description: "",
     fullDescription:
       "This project was created in my spare time and the aim was to create a React app from scratch by practicing fetching data from an API, using custom hooks, React Router, UI libraries, React Modal components.",
@@ -29,7 +29,7 @@ const projectList = [
   {
     id: 3,
     title: "Personalise Dictionary",
-    imageSrc: "/thumbnails/tribute_page.png",
+    imageSrc: "/thumbnails/personalise_dictionary.png",
     description: "",
     fullDescription:
       "During the Christmas break, we were assigned the task of creating anything we would like. As I wasn't feeling very confident on the backend, I decided to deep dive into Node.js. I used Express wireframe, environment variables to secure the Postgres Database credentials and use HTTP Methods to interact with the database.",
