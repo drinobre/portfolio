@@ -20,7 +20,7 @@ export default function DisplayProjects({
               src={imageSrc}
               alt="Adriana Nobre Lawrence Avatar"
               width="10"
-              height="10"
+              height="8"
               layout="responsive"
             />
             <h4 className="subheader-gray">{type}</h4>

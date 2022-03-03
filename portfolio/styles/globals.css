@@ -6,6 +6,15 @@
   --header-text-size: 3.5rem;
   --subheader-text-size: 1.5rem;
   --section-text-size: 2rem;
+  --body-font-size: 1.125rem;
+  --link-font-size: 1.3rem;
+
+  --header-small-screen-text-size: 2.5rem;
+  --subheader-small-screen-text-size: 1rem;
+  --section-small-screen-text-size: 1.5rem;
+  --body-small-screen-font-size: 0.75rem;
+  --link-small-screen-font-size: 1rem;
+
   --text-primary-colour: black;
   --text-secondary-colour: white;
 }
@@ -15,7 +24,7 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
-  font-size: 1.125rem;
+  font-size: var(--body-font-size);
 }
 
 * {
@@ -26,13 +35,13 @@ body {
 
 a {
   color: var(--primary-color);
-  font-size: 1.3rem;
+  font-size: var(--link-font-size);
   padding-top: 2rem !important;
 }
 
 #navbar-name {
   color: var(--text-secondary-colour);
-  font-size: 1.3rem;
+  font-size: var(--link-font-size);
 }
 
 #navbar-name:hover {
@@ -181,9 +190,8 @@ a {
   flex: 30%;
   text-align: center;
   display: block;
-  /* width: 80%; */
   padding: 10px;
-  margin: 1rem 3rem;
+  margin: auto;
   object-fit: cover;
   max-width: 300px;
 }
@@ -283,21 +291,45 @@ img {
 
 /* Screen size */
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
   h1 {
-    font-size: 2.5rem;
+    font-size: var(--header-small-screen-text-size);
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: var(--section-small-screen-text-size);
   }
 
   .mainSubheader {
-    font-size: 1rem;
+    font-size: var(--subheader-small-screen-text-size);
   }
+
+  a {
+    font-size: var(--link-small-screen-font-size);
+  }
+
+  html,
+  body {
+    font-size: var(--body-small-screen-font-size);
+  }
+
+  /* .project-group-image {
+    max-width: 200px;
+  } */
+
+  .project-results,
+  .project-results1,
+  .project-results2,
+  .section-group {
+    padding: 0;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 600px) {
   .project-group {
     flex-direction: column;
-    font-size: 0.75rem;
+    font-size: var(--body-small-screen-font-size);
     padding: 0;
   }
 
@@ -307,36 +339,16 @@ img {
     padding: 0;
   }
 
-  .project-results {
-    padding: 0;
-  }
-
-  .project-results1 {
-    padding: 0;
-  }
-
-  .project-results2 {
-    padding: 0;
-  }
   .section-group {
     padding: 0;
   }
 
-  .project-group-image {
-    max-width: 200px;
-  }
-}
-
-@media (max-width: 600px) {
-  .project-group-image {
-    /* display: none; */
-    max-width: 200px;
-  }
-
-  .project-group-image2 {
+  /* additional text only available on desktop */
+  .desktop-only {
     display: none;
   }
-  .section-group {
-    padding: 0;
+
+  .project-group-text {
+    margin: 0rem 1rem 1rem 1rem;
   }
 }

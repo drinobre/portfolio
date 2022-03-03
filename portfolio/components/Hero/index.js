@@ -62,8 +62,8 @@ export default function HeroHomePage() {
                 next chapter of my life to implement everything I learned and
                 learn more from experts in order to make people`s lives better.
               </p>
-              <h4>Who I was before the bootcamp...</h4>
-              <p>
+              <h4 className="desktop-only">Who I was before the bootcamp...</h4>
+              <p className="desktop-only">
                 I am a skilled and dedicated{" "}
                 <b>business analyst and project manager</b> with over 10 years`
                 experience across a range of organisations, from private

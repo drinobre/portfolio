@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 import { Navbar } from "../components/Navbar";
 import PagesHeader from "../components/Header";
 import HeroHomePage from "../components/Hero";
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -23,7 +23,7 @@ export default function Home() {
 
       <HeroHomePage></HeroHomePage>
 
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 }
