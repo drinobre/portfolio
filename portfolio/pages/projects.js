@@ -12,6 +12,7 @@ export default function Projects() {
       <div>
         {projectList.map(function ({
           id,
+          imageSrc,
           title,
           fullDescription,
           technology,
@@ -22,7 +23,7 @@ export default function Projects() {
           return (
             <div key={id}>
               <DisplayProjects
-                // key={id}
+                imageSrc={imageSrc}
                 title={title}
                 type={type}
                 fullDescription={fullDescription}

@@ -2,6 +2,10 @@
 
 Create a multi-page APP where users can find out more who I'm outside my professional life, my professional journey and latest projects.
 
+The result you can find here:
+
+<!-- ![](portfolio/public/images/portfolio_header.png) -->
+
 ## Designing Thinking process
 
 The first version of my portifolio was created in the week 7 of the School of Code(SoC) and the approach was very much reflecting my previous carrer. However, I decided to make some amends on the design after the week 12, where I believe it's better describe who I'm after the bootcamper experience.
