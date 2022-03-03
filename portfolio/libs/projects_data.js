@@ -21,7 +21,7 @@ const projectList = [
     fullDescription:
       "This project was created in my spare time and the aim was to create a React app from scratch by practicing fetching data from an API, using custom hooks, React Router, UI libraries, React Modal components.",
     technology: "React.js ",
-    type: "indidual project",
+    type: "individual project",
     creationDate: "oct/2021",
     gitHubLink: "https://github.com/drinobre/cocktail",
     link: "https://drinobre.github.io/cocktail/",
@@ -34,7 +34,7 @@ const projectList = [
     fullDescription:
       "During the Christmas break, we were assigned the task of creating anything we would like. As I wasn't feeling very confident on the backend, I decided to deep dive into Node.js. I used Express wireframe, environment variables to secure the Postgres Database credentials and use HTTP Methods to interact with the database.",
     technology: "Node.JS, postgres, Heroku",
-    type: "Indidual project",
+    type: "Individual project",
     creationDate: "jan/2022",
     gitHubLink: "https://github.com/drinobre/personalise-dictionary",
     link: "https://github.com/drinobre/personalise-dictionary",

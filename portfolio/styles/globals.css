@@ -314,9 +314,9 @@ img {
     font-size: var(--body-small-screen-font-size);
   }
 
-  /* .project-group-image {
-    max-width: 200px;
-  } */
+  .project-group-image {
+    max-width: 300px;
+  }
 
   .project-results,
   .project-results1,
