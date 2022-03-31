@@ -1,4 +1,4 @@
-export default function PagesHeader({ title, subheader, image, alt, text }) {
+export default function PagesHeader({ title, subheader, text }) {
   return (
     <div className="container-header">
       <div className="header-item">

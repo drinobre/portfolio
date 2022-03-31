@@ -11,7 +11,7 @@ export default function Home() {
       <Navbar></Navbar>
       <Head>
         <title>Hi, I am Adriana</title>
-        <meta name="description" content="Adriana Nobre Lawrence portifolio" />
+        <meta name="description" content="Adriana Nobre Lawrence portfolio" />
       </Head>
       <PagesHeader
         title={"Hello, I'm Adriana Lawrence"}

@@ -1,8 +1,8 @@
 /* global variable */
 :root {
   --primary-color: rgb(0, 82, 204);
-  --secondary-colour: coral;
-  --third-colour: rgb(0, 82, 204);
+  --secondary-color: coral;
+  --third-color: white;
   --header-text-size: 3.5rem;
   --subheader-text-size: 1.5rem;
   --section-text-size: 2rem;
@@ -15,8 +15,8 @@
   --body-small-screen-font-size: 0.75rem;
   --link-small-screen-font-size: 1rem;
 
-  --text-primary-colour: black;
-  --text-secondary-colour: white;
+  --text-primary-color: black;
+  --text-secondary-color: white;
 }
 
 html,
@@ -40,20 +40,20 @@ a {
 }
 
 #navbar-name {
-  color: var(--text-secondary-colour);
+  color: var(--text-secondary-color);
   font-size: var(--link-font-size);
 }
 
 #navbar-name:hover {
   text-decoration: var(--primary-color);
-  color: var(--secondary-colour);
+  color: var(--secondary-color);
 }
 
 /* Navbar */
 .container-navbar {
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
   padding: 1rem;
   background-color: rgb(86, 11, 173);
 }
@@ -71,12 +71,19 @@ a {
   justify-content: center;
   flex-wrap: wrap;
   padding: 2rem 0 3rem 0;
-  background-color: rgb(72, 12, 168);
+  /* background-color: rgb(72, 12, 168); */
+  background: rgb(59, 32, 140);
+  background: linear-gradient(
+    138deg,
+    rgba(59, 32, 140, 1) 65%,
+    rgba(216, 7, 157, 1) 100%
+  );
+  height: 90vh;
 }
 
 .header-item {
   text-align: center;
-  color: var(--text-secondary-colour);
+  color: var(--text-secondary-color);
 }
 
 /* Footer */
@@ -135,6 +142,7 @@ a {
 .section-group {
   /* padding: 2rem 3rem 1rem 3rem; */
   background-color: rgb(254, 254, 254);
+  /* height: 100vh; */
 }
 
 /* Project Results */
@@ -147,7 +155,7 @@ a {
 
 .project-results1 {
   padding: -10px;
-  background-color: var(--secondary-color);
+  background-color: var(--third-color);
   margin: 0 1rem !important;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 0.5rem;
@@ -208,18 +216,18 @@ a {
 h1 {
   text-align: center;
   padding-top: 3rem;
-  color: var(--secondary-color);
+  color: var(--text-secondary-color);
   font-size: var(--header-text-size);
 }
 
 h1:hover {
   text-decoration: var(--secondary-color);
-  color: var(--secondary-colour);
+  color: var(--secondary-color);
 }
 
 .mainSubheader {
   text-align: center;
-  color: var(--secondary-color);
+  color: var(--text-secondary-color);
   font-size: var(--subheader-text-size);
 }
 
@@ -232,7 +240,7 @@ h2 {
 
 h2:hover {
   text-decoration: var(--primary-color);
-  color: var(--secondary-colour);
+  color: var(--secondary-color);
 }
 
 h3 {
