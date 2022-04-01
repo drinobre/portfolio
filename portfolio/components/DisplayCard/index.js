@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Button from "../Button";
 
 export default function DisplayProjects({
   title,
@@ -34,6 +35,9 @@ export default function DisplayProjects({
             <br></br>
             <div>
               <a href={link}>See project</a>
+            </div>
+            <div>
+              <Button>Read more about</Button>
             </div>
           </div>
         </div>

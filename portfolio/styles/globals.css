@@ -288,6 +288,23 @@ img {
   padding: 2rem 8rem 0 8rem;
 }
 
+/* button {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  height: 36px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  border-radius: 70%;
+  color: white;
+} */
+
+.button {
+  display: flex;
+  width: 50%;
+}
+
 /* Technical description of projects page */
 .subheader-gray {
   color: gray;
@@ -360,4 +377,69 @@ img {
   .project-group-text {
     margin: 0rem 1rem 1rem 1rem;
   }
+}
+
+/* CARD */
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.single-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 30px;
+  box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.2);
+  transition: 0.1s;
+  height: 30rem;
+  width: 25rem;
+}
+
+.single-card:hover {
+  box-shadow: 0 12px 24px 0 rgb(0, 82, 204);
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.card-image {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+
+.card-image > img {
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  text-align: center;
+  width: 85%;
+  height: 30%;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  gap: 15px;
+}
+
+.subheader-gray {
+  color: gray;
 }
