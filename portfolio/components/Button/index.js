@@ -1,7 +1,7 @@
-export default function Button({ title }) {
+export default function Button({ className, title }) {
   return (
     <>
-      <button>{title}</button>
+      <button className={className}>{title}</button>
     </>
   );
 }
